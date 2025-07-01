@@ -14,7 +14,7 @@ const patched = original
   )
   .replace(
     /\['ng-version',\s*['"][^'"]+['"`]\]/,
-    `[]`
+    `['ng-version', '0.0.0-PLACEHOLDER']`
   );
 
 // Escreve o arquivo modificado
